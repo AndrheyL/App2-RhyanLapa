@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:background="@drawable/cerclebackground">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/logo_bdgttracker"/>
+    
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El Rhyan's Money Budget-er"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/image"/>
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Application"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/username"/>
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Enter a new transaction using the "+" button'
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:layout_below="@id/description1"/>
+
+    <TextView
+        android:id="@+id/description3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Enter your label, amount and description(optional)'
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/description2"/>
+
+    <TextView
+        android:id="@+id/description4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='To place it in your transactions.'
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/description3"/>
+
+    <TextView
+        android:id="@+id/description5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Swipe right to delete your specified transaction'
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/description4" />
+
+    <TextView
+        android:id="@+id/description6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Update your transaction by touching it'
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/description5" />
+
+
+</RelativeLayout>
